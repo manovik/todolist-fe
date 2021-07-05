@@ -1,0 +1,25 @@
+.todos {
+  &__page-bar {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    padding-left: 1vw;
+  }
+  &__page-btn {
+    border-radius: 8px;
+    background-color: wheat;
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    transition: all 0.2s;
+    &:hover {
+      opacity: 0.7;
+      color: rgb(122, 122, 122);
+    }
+    &:active {
+      opacity: 0.3;
+    }
+  }
+}
